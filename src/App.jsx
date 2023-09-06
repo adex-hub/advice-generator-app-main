@@ -20,9 +20,9 @@ function App() {
     <main>
       <p className="advice-no">Advice #{id}</p>
       <h1 className="advice">"{advice}"</h1>
-      <img src="images/pattern-divider-desktop.svg" className="divider"></img>
+      <img src="images/pattern-divider-desktop.svg" alt="divider" className="divider"></img>
       <button onClick={getAdvice}>
-        <img src="images/icon-dice.svg" alt="" />
+        <img src="images/icon-dice.svg" alt="dice-roll" />
       </button>
     </main>
   );
